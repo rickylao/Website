@@ -1,0 +1,31 @@
+html {
+    font-family: verdana;
+}
+
+body {
+    background-color:whitesmoke;
+    color:#001a23;
+}
+
+button, input, textarea, select {
+    font: inherit;
+}
+
+.heads {
+    border-radius: 20px;
+    background-color: #45d58b;
+    color: #001a23;
+    border: 2px solid #3066be;
+    margin: 3em;
+    padding: 1em;
+}
+
+.navbar {
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color: #001a23;
+    border: 5px double #3066be;
+    margin: 1em;
+    padding: 0.5em;
+    text-align: center;
+}

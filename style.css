@@ -6,7 +6,8 @@ html {
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+	align-items: flex-start;
 }
 
 body {
@@ -32,10 +33,10 @@ button, input, textarea, select {
 }
 
 .navbar {
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: whitesmoke;
     color: #001a23;
-    border: 5px double #3066be;
+    border: 7px double #3066be;
     margin: 1em;
     padding: 0.5em;
     text-align: center;
@@ -49,6 +50,10 @@ button, input, textarea, select {
 	color:#31493c;
 	text-decoration: dotted black;
 	font-weight: bold;
+}
+
+footer {
+	text-align: center;
 }
 
 .poppins-thin {

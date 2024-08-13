@@ -57,3 +57,6 @@ attract();
 let numbers = [1, 5, 2, 6, 3];
 numbers.sort();
 console.log(numbers);
+
+//Footer
+document.getElementById("year").innerHTML = new Date().getFullYear();
